@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>জব সার্কুলার.bd | Latest Job Circulars in Bangladesh</title>
+
+    <meta name="description" content="জব সার্কুলার.bd publishes the latest government, private, banking, NGO, international, remote, part-time and fresher job circulars in Bangladesh.">
+    <meta name="keywords" content="job circular Bangladesh, latest job circular, government job, private job, bank job, NGO job, remote jobs, fresher jobs">
+
+    <meta property="og:title" content="জব সার্কুলার.bd | Latest Job Circulars">
+    <meta property="og:description" content="Latest government, private, banking, NGO, remote, part-time and fresher job opportunities in Bangladesh.">
+    <meta property="og:type" content="website">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, "Noto Sans Bengali", sans-serif;
+            line-height: 1.7;
+            color: #222;
+            background: #f7f9fc;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            width: 92%;
+            max-width: 1150px;
+            margin: auto;
+        }
+
+        /* HEADER */
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #e5e7eb;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar {
+            min-height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: #0b63ce;
+            white-space: nowrap;
+        }
+
+        .logo span {
+            color: #222;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        nav a:hover {
+            color: #0b63ce;
+        }
+
+        /* HERO */
+        .hero {
+            background: linear-gradient(135deg, #0b63ce, #174ea6);
+            color: white;
+            padding: 90px 0;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: 44px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            opacity: 0.95;
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 22px;
+            border-radius: 7px;
+            font-weight: 700;
+            transition: 0.2s;
+        }
+
+        .btn-primary {
+            background: white;
+            color: #0b63ce;
+        }
+
+        .btn-primary:hover {
+            background: #f1f5f9;
+        }
+
+        .btn-outline {
+            border: 1px solid white;
+            color: white;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: #0b63ce;
+        }
+
+        /* SECTION */
+        section {
+            padding: 70px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #666;
+        }
+
+        /* CATEGORIES */
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .category {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+            text-align: center;
+        }
+
+        .category h3 {
+            margin-bottom: 8px;
+            color: #0b63ce;
+        }
+
+        .category p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* JOB CARDS */
+        .jobs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 22px;
+        }
+
+        .job-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .job-card h3 {
+            color: #0b63ce;
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+
+        .job-info {
+            margin: 7px 0;
+            color: #555;
+            font-size: 14px;
+        }
+
+        .job-info strong {
+            color: #222;
+        }
+
+        .apply-btn {
+            display: inline-block;
+            margin-top: 15px;
+            background: #0b63ce;
+            color: white;
+            padding: 9px 18px;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+
+        .apply-btn:hover {
+            background: #084c9e;
+        }
+
+        /* ABOUT */
+        .about-box {
+            background: white;
+            padding: 35px;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .about-box h3 {
+            margin: 25px 0 8px;
+            color: #0b63ce;
+        }
+
+        .about-box h3:first-child {
+            margin-top: 0;
+        }
+
+        /* POLICY */
+        .policy-box {
+            background: white;
+            padding: 35px;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .policy-box h3 {
+            margin: 25px 0 8px;
+            color: #0b63ce;
+        }
+
+        .policy-box h3:first-child {
+            margin-top: 0;
+        }
+
+        .policy-box ul {
+            padding-left: 25px;
+        }
+
+        /* CONTACT */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .contact-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .contact-card h3 {
+            color: #0b63ce;
+            margin-bottom: 12px;
+        }
+
+        .contact-card a {
+            color: #0b63ce;
+        }
+
+        /* NOTICE */
+        .notice {
+            background: #fff8e1;
+            border-left: 5px solid #f0b400;
+            padding: 20px;
+            border-radius: 6px;
+            margin-top: 25px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #111827;
+            color: #d1d5db;
+            padding: 45px 0 25px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 35px;
+        }
+
+        footer h3 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        footer p,
+        footer a {
+            font-size: 14px;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        .copyright {
+            border-top: 1px solid #374151;
+            margin-top: 30px;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        /* MOBILE */
+        @media (max-width: 900px) {
+            .categories {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .jobs {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .navbar {
+                flex-direction: column;
+                padding: 15px 0;
+            }
+
+            nav {
+                justify-content: center;
+                gap: 12px;
+            }
+
+            .hero {
+                padding: 60px 0;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .categories {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 50px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+    <div class="container navbar">
+
+        <a href="#home" class="logo">
+            জব সার্কুলার<span>.bd</span>
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#jobs">Job Circulars</a>
+            <a href="#about">About Us</a>
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<!-- ================= HOME ================= -->
+
+<section class="hero" id="home">
+
+    <div class="container">
+
+        <div class="hero-content">
+
+            <h1>
+                Latest Job Circulars & Career Opportunities in Bangladesh
+            </h1>
+
+            <p>
+                জব সার্কুলার.bd বাংলাদেশের একটি চাকরির তথ্যভিত্তিক
+                প্ল্যাটফর্ম। সরকারি, বেসরকারি, ব্যাংক, এনজিও,
+                আন্তর্জাতিক, রিমোট, পার্ট-টাইম ও ফ্রেশার চাকরির
+                সর্বশেষ নিয়োগ বিজ্ঞপ্তি খুঁজে নিন এক জায়গায়।
+            </p>
+
+            <div class="buttons">
+
+                <a href="#jobs" class="btn btn-primary">
+                    Latest Job Circulars
+                </a>
+
+                <!-- Replace this URL with your Facebook Page URL -->
+                <a href="https://www.facebook.com/" target="_blank"
+                   class="btn btn-outline">
+                    Follow us on Facebook
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Job Categories</h2>
+            <p>Explore different types of job opportunities</p>
+        </div>
+
+        <div class="categories">
+
+            <div class="category">
+                <h3>Government Jobs</h3>
+                <p>Latest government job circulars and opportunities.</p>
+            </div>
+
+            <div class="category">
+                <h3>Private Jobs</h3>
+                <p>Job opportunities from private companies and organizations.</p>
+            </div>
+
+            <div class="category">
+                <h3>Bank Jobs</h3>
+                <p>Latest banking and financial sector job opportunities.</p>
+            </div>
+
+            <div class="category">
+                <h3>NGO Jobs</h3>
+                <p>Local and international NGO career opportunities.</p>
+            </div>
+
+            <div class="category">
+                <h3>Remote Jobs</h3>
+                <p>Remote and work-from-home opportunities.</p>
+            </div>
+
+            <div class="category">
+                <h3>Part-Time Jobs</h3>
+                <p>Part-time employment opportunities.</p>
+            </div>
+
+            <div class="category">
+                <h3>Fresher Jobs</h3>
+                <p>Career opportunities for fresh graduates and beginners.</p>
+            </div>
+
+            <div class="category">
+                <h3>Internships</h3>
+                <p>Internship opportunities for students and graduates.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= JOB CIRCULARS ================= -->
+
+<section id="jobs">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Latest Job Circulars</h2>
+
+            <p>
+                Explore recent employment opportunities in Bangladesh.
+            </p>
+
+        </div>
+
+
+        <div class="jobs">
+
+
+            <!-- JOB 1 -->
+
+            <div class="job-card">
+
+                <h3>Management Trainee Officer – Brand</h3>
+
+                <div class="job-info">
+                    <strong>Company:</strong> PRAN-RFL Group
+                </div>
+
+                <div class="job-info">
+                    <strong>Location:</strong> Dhaka
+                </div>
+
+                <div class="job-info">
+                    <strong>Qualification:</strong>
+                    BBA & MBA in Marketing
+                </div>
+
+                <div class="job-info">
+                    <strong>Employment:</strong> Full-time
+                </div>
+
+                <div class="job-info">
+                    <strong>Deadline:</strong> 18 September 2026
+                </div>
+
+                <!-- Replace with official application URL -->
+                <a href="#" class="apply-btn">
+                    View & Apply
+                </a>
+
+            </div>
+
+
+            <!-- JOB 2 -->
+
+            <div class="job-card">
+
+                <h3>Executive – Engineering Procurement</h3>
+
+                <div class="job-info">
+                    <strong>Company:</strong> US-Bangla Airlines
+                </div>
+
+                <div class="job-info">
+                    <strong>Location:</strong> Dhaka
+                </div>
+
+                <div class="job-info">
+                    <strong>Employment:</strong> Full-time
+                </div>
+
+                <div class="job-info">
+                    <strong>Experience:</strong> Freshers encouraged
+                </div>
+
+                <div class="job-info">
+                    <strong>Education:</strong>
+                    Relevant degree required
+                </div>
+
+                <!-- Replace with official application URL -->
+                <a href="#" class="apply-btn">
+                    View & Apply
+                </a>
+
+            </div>
+
+
+            <!-- JOB 3 -->
+
+            <div class="job-card">
+
+                <h3>Brand Promoter</h3>
+
+                <div class="job-info">
+                    <strong>Company:</strong> Prestige Bengal Ltd. (Lotus)
+                </div>
+
+                <div class="job-info">
+                    <strong>Location:</strong> Bashundhara, Dhaka
+                </div>
+
+                <div class="job-info">
+                    <strong>Gender:</strong> Female
+                </div>
+
+                <div class="job-info">
+                    <strong>Qualification:</strong> Minimum SSC
+                </div>
+
+                <div class="job-info">
+                    <strong>Area:</strong> Modern Trade
+                </div>
+
+                <!-- Replace with official application URL -->
+                <a href="#" class="apply-btn">
+                    View & Apply
+                </a>
+
+            </div>
+
+
+            <!-- JOB 4 -->
+
+            <div class="job-card">
+
+                <h3>Management & Career Opportunities</h3>
+
+                <div class="job-info">
+                    <strong>Category:</strong> Private Jobs
+                </div>
+
+                <div class="job-info">
+                    <strong>Location:</strong> Bangladesh
+                </div>
+
+                <div class="job-info">
+                    <strong>Employment:</strong> Full-time
+                </div>
+
+                <div class="job-info">
+                    <strong>Opportunity:</strong>
+                    Freshers and experienced candidates
+                </div>
+
+                <!-- Replace with official application URL -->
+                <a href="#" class="apply-btn">
+                    View & Apply
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="notice">
+
+            <strong>Important Notice:</strong>
+
+            Job information may change depending on the employer.
+            Please verify qualifications, salary, deadline and
+            application instructions from the relevant employer or
+            official recruitment source before applying.
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT US ================= -->
+
+<section id="about">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>About Us</h2>
+            <p>Learn more about Job Circular.bd</p>
+        </div>
+
+
+        <div class="about-box">
+
+            <h3>About Job Circular.bd</h3>
+
+            <p>
+                Job Circular.bd is a job information platform focused
+                on helping job seekers in Bangladesh discover the latest
+                employment and career opportunities.
+            </p>
+
+            <p>
+                We publish information about government, private,
+                banking, NGO, international, remote, part-time,
+                fresher and internship opportunities.
+            </p>
+
+
+            <h3>Our Mission</h3>
+
+            <p>
+                Our mission is to make job searching easier and more
+                accessible by bringing useful employment information
+                together in one place.
+            </p>
+
+
+            <h3>What Makes Us Different</h3>
+
+            <p>
+                Job Circular.bd focuses on presenting job information
+                in a simple and easy-to-understand format so that job
+                seekers can quickly understand the opportunity and
+                application requirements.
+            </p>
+
+
+            <h3>Our Information Policy</h3>
+
+            <p>
+                We aim to provide useful and accurate job information
+                based on available recruitment announcements and
+                sources. Job seekers should always verify important
+                details and application instructions from the relevant
+                employer or official recruitment source before applying.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRIVACY POLICY ================= -->
+
+<section id="privacy">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Privacy Policy</h2>
+            <p>Last Updated: September 2026</p>
+        </div>
+
+
+        <div class="policy-box">
+
+            <h3>1. Introduction</h3>
+
+            <p>
+                জব সার্কুলার.bd ("we", "our" or "the platform")
+                respects the privacy of our visitors, followers and
+                users. This Privacy Policy explains how information
+                may be collected, used and protected when you use our
+                website, Facebook Page, messaging services or related
+                services.
+            </p>
+
+
+            <h3>2. Information We May Receive</h3>
+
+            <p>
+                Depending on how you interact with us, we may receive
+                information such as:
+            </p>
+
+            <ul>
+                <li>Name</li>
+                <li>Email address</li>
+                <li>Messages and inquiries</li>
+                <li>Education-related information voluntarily provided by you</li>
+                <li>Work experience</li>
+                <li>Skills</li>
+                <li>Job preferences</li>
+                <li>Information included in your inquiry</li>
+            </ul>
+
+
+            <h3>3. How We Use Information</h3>
+
+            <ul>
+                <li>Respond to questions</li>
+                <li>Provide job-related information</li>
+                <li>Suggest relevant job opportunities</li>
+                <li>Improve our services</li>
+                <li>Communicate with users</li>
+                <li>Provide AI-assisted responses to common inquiries</li>
+            </ul>
+
+
+            <h3>4. Sensitive Information</h3>
+
+            <p>
+                Please do not send passwords, OTP codes, bank PINs,
+                card PINs, Facebook login credentials or other highly
+                sensitive information through our website or messaging
+                channels.
+            </p>
+
+
+            <h3>5. Job Application Information</h3>
+
+            <p>
+                Job Circular.bd does not normally process job
+                applications directly unless explicitly stated.
+                When an application link takes you to another website,
+                your information may be collected by that third-party
+                website according to its own privacy policy.
+            </p>
+
+
+            <h3>6. Third-Party Websites</h3>
+
+            <p>
+                Our website may contain links to employer websites,
+                application forms, LinkedIn, Google Forms and other
+                third-party services. We are not responsible for the
+                privacy practices or content of third-party websites.
+            </p>
+
+
+            <h3>7. AI Assistant</h3>
+
+            <p>
+                Some user questions may be answered using automated
+                or AI-assisted systems. AI-generated responses are
+                provided for informational purposes and may not always
+                be complete or accurate.
+            </p>
+
+
+            <h3>8. Security</h3>
+
+            <p>
+                We take reasonable measures to protect information
+                handled through our services. However, no internet-based
+                service can guarantee absolute security.
+            </p>
+
+
+            <h3>9. Changes to This Policy</h3>
+
+            <p>
+                We may update this Privacy Policy when necessary.
+                Updated versions will be published on this page.
+            </p>
+
+
+            <h3>10. Contact</h3>
+
+            <p>
+                Email:
+                <a href="mailto:jobcirculerbd@gmail.com">
+                    jobcirculerbd@gmail.com
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TERMS ================= -->
+
+<section id="terms">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Terms of Service</h2>
+
+            <p>Last Updated: September 2026</p>
+
+        </div>
+
+
+        <div class="policy-box">
+
+
+            <h3>1. About Our Service</h3>
+
+            <p>
+                জব সার্কুলার.bd is a job information platform that
+                publishes and shares employment and career-related
+                information for job seekers.
+            </p>
+
+
+            <h3>2. Job Information</h3>
+
+            <p>
+                We make reasonable efforts to provide useful job
+                information. However, job vacancies, salaries,
+                deadlines, qualifications and recruitment decisions
+                are determined by the respective employers.
+            </p>
+
+
+            <h3>3. No Job Guarantee</h3>
+
+            <p>
+                Publication of a job circular on our platform does not
+                guarantee employment, interview selection or recruitment.
+            </p>
+
+
+            <h3>4. Application Responsibility</h3>
+
+            <p>
+                Users are responsible for reviewing the complete job
+                description and eligibility requirements before applying.
+            </p>
+
+
+            <h3>5. Third-Party Links</h3>
+
+            <p>
+                Some job posts may contain links to external websites,
+                application forms or employer websites. These websites
+                are operated independently from Job Circular.bd.
+            </p>
+
+
+            <h3>6. User Responsibility</h3>
+
+            <p>Users agree not to:</p>
+
+            <ul>
+                <li>Provide false information</li>
+                <li>Misuse the website</li>
+                <li>Attempt unauthorized access</li>
+                <li>Upload harmful content</li>
+                <li>Use our platform for fraudulent activity</li>
+            </ul>
+
+
+            <h3>7. AI-Assisted Information</h3>
+
+            <p>
+                Some responses may be generated or assisted by AI.
+                Users should verify important employment information
+                through the relevant employer or official source.
+            </p>
+
+
+            <h3>8. No Payment Guarantee</h3>
+
+            <p>
+                Job Circular.bd does not guarantee employment and does
+                not authorize individuals to collect money from
+                applicants in exchange for employment.
+            </p>
+
+
+            <h3>9. Intellectual Property</h3>
+
+            <p>
+                Website content, branding, logos and original materials
+                belonging to Job Circular.bd may not be copied or
+                commercially reproduced without permission.
+            </p>
+
+
+            <h3>10. Changes to the Service</h3>
+
+            <p>
+                We may modify, update or discontinue parts of the
+                website or service when necessary.
+            </p>
+
+
+            <h3>11. Contact</h3>
+
+            <p>
+                Email:
+                <a href="mailto:jobcirculerbd@gmail.com">
+                    jobcirculerbd@gmail.com
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Contact Us</h2>
+
+            <p>Get in touch with Job Circular.bd</p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <div class="contact-card">
+
+                <h3>Business Information</h3>
+
+                <p>
+                    <strong>Business Name:</strong><br>
+                    জব সার্কুলার.bd
+                </p>
+
+                <br>
+
+                <p>
+                    <strong>Business Type:</strong><br>
+                    Job Information Platform
+                </p>
+
+                <br>
+
+                <p>
+                    <strong>Location:</strong><br>
+                    Dhaka, Bangladesh
+                </p>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <h3>Contact Information</h3>
+
+                <p>
+                    <strong>Email:</strong><br>
+
+                    <a href="mailto:jobcirculerbd@gmail.com">
+                        jobcirculerbd@gmail.com
+                    </a>
+                </p>
+
+                <br>
+
+                <p>
+                    <strong>Facebook:</strong><br>
+
+                    <!-- Replace with your actual Facebook Page URL -->
+
+                    <a href="https://www.facebook.com/" target="_blank">
+                        Official Facebook Page
+                    </a>
+
+                </p>
+
+                <br>
+
+                <p>
+                    For general inquiries, job-related questions,
+                    corrections, feedback and business communication,
+                    please contact us by email.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="notice">
+
+            <strong>Job Application Notice:</strong>
+
+            For job application-related questions, applicants should
+            contact the respective employer using the official contact
+            information provided in the job advertisement.
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+
+            <div>
+
+                <h3>জব সার্কুলার.bd</h3>
+
+                <p>
+                    Latest Job Circulars & Career Opportunities
+                    in Bangladesh.
+                </p>
+
+                <br>
+
+                <p>
+                    Government, private, banking, NGO, international,
+                    remote, part-time and fresher job opportunities.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <p>
+                    <a href="#home">Home</a>
+                </p>
+
+                <p>
+                    <a href="#jobs">Job Circulars</a>
+                </p>
+
+                <p>
+                    <a href="#about">About Us</a>
+                </p>
+
+                <p>
+                    <a href="#contact">Contact Us</a>
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Legal</h3>
+
+                <p>
+                    <a href="#privacy">Privacy Policy</a>
+                </p>
+
+                <p>
+                    <a href="#terms">Terms of Service</a>
+                </p>
+
+                <p>
+                    <a href="mailto:jobcirculerbd@gmail.com">
+                        Contact
+                    </a>
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 Job Circular.bd. All rights reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
